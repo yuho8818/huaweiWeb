@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+
+
+ul.shoplist_sort{
+	
+	float:left;
+	line-height:36px;
+	list-style-type:none;
+	margin:0px;
+	padding-left:0px;
+	border:1px solid #f3f3f3;
+}
+ul.sort_price{
+	background:#e2d7d7;
+	height:36px;
+	width:120px;
+	float:left;
+	line-height:36px;
+	list-style-type:none;
+	margin:0px;
+	padding-left:0px;
+	border:1px solid #f3f3f3;
+	overflow:hidden;
+}
+ul.sort_price:hover{
+	height:36px;
+	width:180px;
+	background:white;
+}
+li.shoplist_sort{
+	float:left;
+	margin-left:1px;
+}
+a.shoplist_sort{
+	background:#e2d7d7;
+	padding:10px;
+	text-decoration: none;
+	color:#5d5d5d;
+}
+a.shoplist_sort:hover{
+	background:white;
+	padding:10px;
+	text-decoration: none;
+	color:#5d5d5d;
+}
+input.shoplist_sort{
+	height:20px;
+	width:40px;
+}
+a.sort_button{
+	text-decoration: none;
+	border-radius:1px;
+	padding:4px;
+	margin-left:15px;
+	background:#f82800;
+	color:white;
+}

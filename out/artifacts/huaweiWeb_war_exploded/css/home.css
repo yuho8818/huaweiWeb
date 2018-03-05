@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+div.img{
+	height:90px;
+	width:100%;	
+	margin-top:100px;
+}
+div.img img{
+	margin-left:11%;
+}
+
+div.Search_bar{	
+	height:45px;
+}
+div.left_content{
+	margin-left:3%;
+	height:200px;
+	width:30%;
+	float:left;
+}
+div.right_content{
+	maigin-left:1%;
+	height:200px;
+	float:left;
+	width:55%;
+	overflow:hidden;
+}
+
+div.hide{
+	    background:#000; 
+    	width:100%; 
+    	height:100%; 
+    	position:absolute; 
+    	top:0; 
+    	left:0; 
+    	zIndex:500; 
+    	opacity:0.3; 
+    	filter:Alpha(opacity=30); 
+}
